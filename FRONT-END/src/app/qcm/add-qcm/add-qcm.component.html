@@ -1,0 +1,40 @@
+
+<div class="container">
+    <h3>Ajouter un QCM</h3>
+    <div class="col-3">
+        <button type="submit" class="btn btn-light" (click)="returnQCM()">Retour à la liste </button>
+    </div>
+    <form (ngSubmit)="addNewQCM(monForm)" #monForm="ngForm" >
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">ID</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="id" name="id" placeholder="l'identifiant" ngModel>
+          </div>
+        </div><br>
+
+        <div class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Question</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="question" name="question" placeholder="votre question" ngModel>
+          </div>
+        </div><br>
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Reponse</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="reponse" name="reponse" placeholder="votre reponse" ngModel>
+            </div>
+        </div><br>
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Notes</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="note" name="note" placeholder="note" ngModel>
+            </div>
+        </div><br>
+        <button type="submit" class="btn btn-primary">Enregistrer</button>
+            <button type="reset" class="btn btn-light">Annuler</button>
+        
+      </form>
+   
+</div>

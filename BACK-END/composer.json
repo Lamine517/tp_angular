@@ -1,0 +1,20 @@
+{
+    "name": "admin/backend",
+    "description": "petit projet backend pour connexion angular",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bassirou Ngom",
+            "email": "bassirou.ngom@gitechsn.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.8",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+      "ext-pdo": "*",
+        "ext-json": "*",
+        "slim/psr7": "^1.4"
+    }
+}

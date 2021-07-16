@@ -1,0 +1,15 @@
+{
+    "name": "backend/donnees",
+    "description": "petit projet pour  creer une connexion  a la  base de donnees",
+    "authors": [
+        {
+            "name": "Lamine517",
+            "email": "diemelamine398@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.8",
+        "slim/psr7": "^1.4"
+    }
+}
